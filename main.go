@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "klaysystems:v999"
+const webContent = "klaysystems:v8"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
